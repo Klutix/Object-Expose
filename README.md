@@ -23,10 +23,10 @@ import groovy.json.JsonSlurper
 def slurper = new JsonSlurper()
 
 // Convert Groovy object to JSON
-def convertedJson = JsonConverter.convertObjectToJson(exampleObject, false, false)
+def convertedJson = ObjectExposer.convertObjectToJson(exampleObject, false, false)
 
 // Print the **pretty-printed JSON**
-print(JsonOutput.prettyPrint(JsonOutput.toJson(convertedJson)))
+print(convertedJson)
 ```
 
 ## Exposing Object Contents
