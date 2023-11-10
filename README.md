@@ -19,14 +19,22 @@ This project provides a Groovy utility for converting Groovy objects into JSON f
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 
-// Initialize JsonSlurper
+// Initialize JsonSlurper as the example object
 def slurper = new JsonSlurper()
-
-// Example object
-def exampleObject = "no"
 
 // Convert Groovy object to JSON
 def convertedJson = JsonConverter.convertObjectToJson(exampleObject, false, false)
 
 // Print the **pretty-printed JSON**
 print(JsonOutput.prettyPrint(JsonOutput.toJson(convertedJson)))
+```
+
+## Exposing Object Contents
+
+The static class in this project can be used to expose the contents of any Object. Simply integrate the JsonConverter class into your project and use it to serialize and view the contents of JAR files programmatically.
+
+## Contributing
+Contributions are welcome! Feel free to open issues and submit pull requests.
+
+## License
+This project is licensed under the MIT License.
