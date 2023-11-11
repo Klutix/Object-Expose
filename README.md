@@ -16,7 +16,6 @@ This project provides a Groovy utility for exposing objects into JSON format. It
 ### Example
 
 ```groovy
-import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
 
 // Initialize JsonSlurper as the example object
