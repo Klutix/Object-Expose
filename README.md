@@ -22,6 +22,7 @@ import groovy.json.JsonSlurper
 def slurper = new JsonSlurper()
 
 // Convert Groovy object to JSON
+//params include the object, recursive and includePrimitives
 def convertedJson = ObjectExposer.convertObjectToJson(exampleObject, false, false)
 
 // Print the **pretty-printed JSON**
