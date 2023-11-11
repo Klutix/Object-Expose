@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a Groovy utility for exposing objects into JSON format. It includes a static class method that can be used to serialize Groovy objects, handling recursive references and providing detailed class information.
+This project provides a Groovy/Java utility for exposing objects into JSON format. It includes a static class method that can be used to serialize Groovy objects, handling recursive references and providing detailed class information.
 
 
 ## Exposing Object Contents
