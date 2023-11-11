@@ -1,4 +1,4 @@
-# Groovy JSON Object to JSON Converter
+# Groovy/Java Object to JSON Converter
 
 ## Overview
 
