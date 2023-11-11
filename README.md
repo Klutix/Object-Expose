@@ -34,7 +34,7 @@ def convertedJson = ObjectExposer.convertObjectToJson(exampleObject, false, fals
 // Print the **pretty-printed JSON**
 print(convertedJson)
 ```
-##Output
+## Output
 ```bash
 {
     "value": "groovy.json.JsonSlurper@73044cdf",
